@@ -1,9 +1,9 @@
-#arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 #1. Use the "each" method of Array to iterate over [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], and print out each value.
 
 arr.each {|a| puts a}
-OR
+#OR
 arr.each do |a|
   puts a
 end
@@ -62,7 +62,7 @@ h = {a:1, b:2, c:3, d:4}
 
 #9. Get the value of key "b".
 
-h[:b] returns the value 2.
+h[:b] #returns the value 2.
 
 
 #10. Add to this hash the key:value pair {e:5}
